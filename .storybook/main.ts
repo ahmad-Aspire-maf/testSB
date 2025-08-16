@@ -11,7 +11,8 @@ const config: StorybookConfig = {
     "@storybook/addon-onboarding",
     "@storybook/addon-a11y",
     "@storybook/addon-vitest",
-    'storybook-addon-designs',
+    '@storybook/addon-designs',   
+
   ],
   "framework": {
     "name": "@storybook/nextjs-vite",

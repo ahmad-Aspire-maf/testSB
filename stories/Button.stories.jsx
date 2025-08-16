@@ -9,7 +9,7 @@ export default {
     layout: 'centered',
     design: {
       type: 'figma',
-      url: 'https://www.figma.com/file/your-file-id/your-figma-file-name?node-id=0%3A1',
+      url: 'https://www.figma.com/slides/U4nGJ2fpIwLmA6cVMbVVN6/Untitled?node-id=1-42&t=FImyPRGF9lNb383m-1',
     },
   },
   tags: ['autodocs'],
