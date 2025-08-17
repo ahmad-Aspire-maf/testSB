@@ -44,9 +44,9 @@ pipeline {
         }
         failure {
             echo 'Publishing failed. Check errors above.'
-            mail to: 'ahmad.alkhalafse@gmail.com',
+           /* mail to: 'ahmad.alkhalafse@gmail.com',
          subject: "Build Failed",
-         body: "Build ${env.JOB_NAME} #${env.BUILD_NUMBER} failed. Check Jenkins."
+         body: "Build ${env.JOB_NAME} #${env.BUILD_NUMBER} failed. Check Jenkins."*/
         }
     }
     
