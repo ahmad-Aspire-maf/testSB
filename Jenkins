@@ -24,6 +24,15 @@ pipeline {
                 sh 'npx chromatic --project-token=$CHROMATIC_PROJECT_TOKEN'
             }
         }
+        stage('Debug Info') {
+    steps {
+        sh 'echo "Current directory: $(pwd)"'
+        sh 'ls -la'
+        sh 'node -v && npm -v'
+        sh 'git log -1'
+    }
+}
+
     }
 
     post {
