@@ -43,7 +43,7 @@ pipeline {
             echo 'Storybook successfully published to Chromatic.'
         }
         failure {
-            echo 'Publishing failed. Check errors above.',
+            echo 'Publishing failed. Check errors above.'
             mail to: 'ahmad.alkhalafse@gmail.com',
          subject: "Build Failed",
          body: "Build ${env.JOB_NAME} #${env.BUILD_NUMBER} failed. Check Jenkins."
